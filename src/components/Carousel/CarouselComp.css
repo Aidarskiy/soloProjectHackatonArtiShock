@@ -1,0 +1,10 @@
+  .d-block {
+    width: 100%;
+    height: 600px;
+  }
+
+@media all and (max-width: 650px) {
+  .caruselka {
+      display: none;
+  }  
+}

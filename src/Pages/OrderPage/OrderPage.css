@@ -1,0 +1,30 @@
+/* .orderPage {
+    height: 680px;
+    background: linear-gradient(to right, #1e5799 0%,#3085f4 0%,#6086e0 11%,#2240c9 20%,#61b5f9 34%,#336aea 72%,#61b5f9 84%,#2f47e2 100%);
+} */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,600;1,600&display=swap');
+
+.block1 {
+    margin-top: 5%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 0 30px;
+    background: linear-gradient(to right, #1e5799 0%,#f4f4f4 0%,#ffffff 14%,#f2f2f2 28%,#f9f9f9 43%,#f2f2f2 57%,#efefef 69%,#f2f2f2 79%,#efefef 83%,#efefef 84%,#f2f2f2 92%,#f2f2f2 99%,#f2f2f2 100%,#2989d8 100%,#7db9e8 100%,#207cca 100%,#2989d8 100%);}
+
+.titleHead {
+    background: linear-gradient(to right, #1e5799 0%,#f9f9f9 0%,#f4f4f4 13%,#f4f4f4 25%,#efefef 36%,#f4f4f4 48%,#f9f9f9 58%,#efefef 69%,#f4f4f4 79%,#efefef 83%,#f4f4f4 88%,#f2f2f2 92%,#f2f2f2 99%,#f2f2f2 100%,#2989d8 100%,#7db9e8 100%,#207cca 100%,#f4f4f4 100%);
+    padding: 0 40px;
+}
+
+.titleHead a{
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.titleHead a:hover {
+    transition: 0.5s;
+    color: rgba(241, 190, 22, 0.918);
+}
+

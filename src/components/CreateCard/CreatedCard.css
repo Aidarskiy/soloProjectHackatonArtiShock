@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
+
+.divka{
+    font-family: 'Martel', serif;
+    margin-top: 100px;
+    background: linear-gradient(to right, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%);
+}
+.image{
+    display: block;
+}

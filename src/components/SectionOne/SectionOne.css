@@ -1,0 +1,19 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 65px;
+    font-family: 'Scope One', serif;
+
+    font-size: 19px;
+    margin-top: 25px;
+}
+
+@media all and (max-width: 720px) {
+    .section1 {
+        display: none;
+    }
+}

@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+
+.mainShowMore{
+    font-family: 'Sarabun', sans-serif;
+    background: linear-gradient(to right, rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%);
+}

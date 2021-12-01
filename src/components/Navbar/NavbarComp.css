@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Nanum+Gothic&display=swap");
+
+.main-nav {
+  position: relative;
+  background: linear-gradient(to right, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
+}
+
+.navbar {
+  opacity: 0.8;
+}
+.navbar img {
+  /* height: 50px; */
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 40%;
+  /* top: 10%; */
+}
+
+@media all and (max-width: 1000px) {
+  .navbar img {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .navbar img {
+    height: 50px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3%;
+    top: 10%;
+  }
+}
+
+.for-font {
+  font-family: "Nanum Gothic", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.catalog {
+  text-decoration: none;
+  color: black;
+}
+.logout {
+  height: 10px;
+}
+.sign {
+  width: 60px;
+  height: 30px;
+}

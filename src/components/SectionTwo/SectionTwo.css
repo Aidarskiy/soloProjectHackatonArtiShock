@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+
+
+.mainBlockOfPics {
+    font-family: 'Cormorant', serif;
+    letter-spacing: 1px;
+    background: #D6C9F2;
+}
+
+
+
+@media screen and (max-width: 670px){
+    .twoPics {
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+}
+
+@media all and (max-width: 670px){
+    .pic2{
+        
+        width: 350px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .twoPics {
+        display: none;
+    }
+}
+
+.pic1 img {
+    width: 474px;
+    /* height: 430px; */
+    transition: .3s ease-out;
+}
+
+.pic1 img:hover {
+    width: 550px;
+    height: 510px;
+    opacity: 0.8;
+}
+
+.pic1 {
+    position: relative;
+}
+
+.pic1 span {
+    position: absolute;
+    top: 80%;
+    left: 17%;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+.pic2 {
+    position: relative;
+}
+
+/* .pic2 p {
+    position: absolute;
+    top: 73%;
+    right: 25%;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.973);
+} */
+
+
+.pic2 span {
+    position: absolute;
+    top: 77%;
+    right: 20%;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(7, 6, 6, 0.973);
+    border-bottom: 1px solid black;
+}
+
+/* .pic2 span:hover {
+    color: rgba(255, 248, 226, 0.774);
+    font-size: 26px;
+} */
+
+.pic2 img {
+    width: 500px;
+    height: 460px;
+    transition: .3s ease-out;
+}
+
+.pic2 img:hover {
+    width: 550px;
+    height: 510px;
+    opacity: 0.8;
+}
+
+/* .pic3 {
+    position: relative;
+}
+
+/* .pic3 img{
+    width: 620px;
+   height: 460px;
+   transition: .3s ease-out;
+}
+
+.pic3 img:hover {
+    width: 640px;
+    height: 480px;
+    opacity: 0.5;
+}
+
+/* @media screen and (max-width: 400px) {
+    .twoPics {
+        grid-template-columns: 4fr;
+    }
+} */
+
+/* .pic3 p {
+    position: absolute;
+    top: 73%;
+    right: 11.5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.973);
+}
+
+
+.pic3 span {
+    position: absolute;
+    top: 82%;
+    right: 11%;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.973);
+    border-bottom: 1px solid wheat;
+}  */
+
+/* .pic3 span:hover {
+    color: rgba(236, 189, 32, 0.774);
+    font-size: 23px;
+} */
+
+/* .pic4 {
+    position: relative;
+}
+
+.pic4 span {
+    position: absolute;
+    top: 82%;
+    left: 10%;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.973);
+    border-bottom: 1px solid black;
+}
+
+.pic4 span:hover {
+    color: rgba(180, 98, 4, 0.61);
+    font-size: 26px;
+    
+} */
+
+/* .pic4 img{
+    width: 500px;
+    height: 460px;
+    transition: .3s ease-out;
+}
+
+.pic4 img:hover {
+    width: 520px;
+    height: 480px;
+    opacity: 0.5;
+}
+ */

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  width: 16rem;
+}
+.card-div {
+  font-family: 'Amiri', serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 0%,rgba(223,229,215,1) 16%,rgba(223,229,215,1) 44%,rgba(223,229,215,1) 62%,rgba(223,229,215,1) 75%,rgba(179,190,173,1) 100%);
+}
+
+.inp {
+  height: 35px;
+}
+
+.card-btn {
+  width: 80px;
+  margin: 2px;
+}
+
+.inp {
+  height: 35px;
+}
