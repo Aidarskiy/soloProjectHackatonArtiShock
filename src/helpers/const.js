@@ -1,4 +1,4 @@
 // export const API = "https://projectaidar1.herokuapp.com/api/products";
-export const API = "http://localhost:8005/products";
-export const APIusers = "http://localhost:8005/users";
-export const COMMENT_API="http://localhost:8005/comments"
+export const API = "https://aidarsflower.herokuapp.com";
+export const APIusers = "https://aidarsflower.herokuapp.com/users";
+export const COMMENT_API = "https://aidarsflower.herokuapp.com/comments";
