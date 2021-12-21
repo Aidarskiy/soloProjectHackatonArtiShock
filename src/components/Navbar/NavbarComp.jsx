@@ -6,7 +6,6 @@ import {
   Nav,
   Navbar,
   Button,
-  
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "./../../components/photos/CarouselPhotos/ARTISHOCK.svg";
@@ -25,7 +24,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 //Hello
 const HomePage = () => {
   //test
-  const { getProducts ,phonesCountInCart} = useContext(mainContext);
+  const { getProducts, phonesCountInCart } = useContext(mainContext);
   const { authWithGoogle, user, logOut, email, adminEmail } =
     React.useContext(authContext);
 
@@ -108,7 +107,7 @@ const HomePage = () => {
                   style={{ textDecoration: "none", color: "black" }}
                   to="/contacts"
                 >
-                  Contacts
+                  Contactss
                 </Link>
               </Nav.Link>
 
@@ -149,9 +148,9 @@ const HomePage = () => {
                     variant="outline-success"
                   >
                     <Badge badgeContent={phonesCountInCart} color="error">
-                    <ShoppingCartIcon
-                      style={{ height: "15px", width: "15px" }}
-                    />
+                      <ShoppingCartIcon
+                        style={{ height: "15px", width: "15px" }}
+                      />
                     </Badge>
                   </Button>
                 </IconButton>
